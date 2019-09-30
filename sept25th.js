@@ -60,8 +60,22 @@ let context = canvas.getContext("2d");
  
   /**Mirror Reflections
    * -scale(-1,1); // flip x axis (-x to the right, +x to the left)
-   * -translate(tx,0)  --> tx == canvas.width, moves x axis all the way to the right
+   * -translate(-tx,0)  --> tx == canvas.width, moves x axis all the way to the right
    * 
    * -scale(1,-1) //flip y axis (-y on top, +y on bottom)
    * -translate(0, -canvas.height)
    * */
+
+   /**
+    * Rotations
+    * -Spin the coordinate system around a point
+    * -Rotations are RIGID transformations
+    * --Rigid transformations do NOT change the distance between points
+    * ---Translation is another rigid transformation. SCALE IS NOT!
+    * Measuring Rotations in 2D
+    * -Radians = amount point moves around a unit circle
+    * -Canvas 2D: Always rotates clockwise
+    * --negative roration goes counterclockwise
+    * Rotatd Coordinate Systems
+    * -basis vectors point in new direction
+    */
