@@ -65,7 +65,7 @@
  * -- Vectors representing transformation from (0,0) / Origin of currently definted coordinate system
  * 
  * Vectors
- * -Add two vectors: ie [x1,y1] + [x2,y2] = [x1+x2, y1+y2]
+ * -Add two vectors: ie [x1,y1] + [x2,y2] = [x1+x2, y]1+y2]
  * -Scale vectors: ie 5[x1,y1] --> same direction but twice as long = [5x1, 5y2]
  * -Linear Combinations: a x' + bx''
  * -Norm (length)
